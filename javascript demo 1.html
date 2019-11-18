@@ -4,26 +4,17 @@
         <meta charset="utf-8">
 
         <title>javascript demo 1.html</title>
+        <!--
+THE EXTERNAL FILE IS HERE.
+It is good practice to put most of your JavaScript in an external file for performance reasons, separating your JavaScript from your HTML, and to make the JavaScript available to multiple webpages.
+        -->
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
         <h1>javascript demo 1.html</h1>
         <hr />
 
         <script type="text/javascript">
-
-            function get_best_os ( ) {
-                var operating_systems = [
-                    'windows',      //0
-                    'macintosh',    //1
-                    'linux',        //2
-                    'beOS',         //3
-                    'os/2',         //4
-                    'unix'          //5
-                ] ;
-
-                return operating_systems[1] ;
-
-            }
 
             var the_best_os = get_best_os ( ) ;
 
