@@ -9,13 +9,19 @@
         <h1>javascript demo 1.html</h1>
         <hr />
 
-        <p id="sentence">this is a sentence.</p>
-
         <script type="text/javascript">
 
-            var the_new_sentence = 'This is my new <em>sentence</em>.' ;
+            var operating_systems = [
+                'windows',      //0
+                'macintosh',    //1
+                'linux',        //2
+                'beOS',         //3
+                'os/2',         //4
+                'unix'          //5
+            ] ;
 
-            document.getElementById('sentence').innerHTML = the_new_sentence ;
+            document.write ("the best operating system in the world is " + operating_systems[5] ) ;
+            // operating_systems[5] is unix
 
         </script>
     </body>
