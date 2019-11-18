@@ -11,7 +11,7 @@
 
         <script type="text/javascript">
 
-            function print_best_os ( ) {
+            function print_best_os ( os_index ) {
                 var operating_systems = [
                     'windows',      //0
                     'macintosh',    //1
@@ -21,11 +21,12 @@
                     'unix'          //5
                 ] ;
 
-                document.write ("the best operating system in the world is " + operating_systems[5] ) ;
+                var formatted_os = "<strong>" + operating_systems[os_index] + "</strong>" ;
+
+                document.write ("<p>the best operating system in the world is " + formatted_os + "</p>" ) ;
             }
 
-            print_best_os () ;
-            print_best_os () ;
+            print_best_os ( 2 ) ;
 
         </script>
     </body>
